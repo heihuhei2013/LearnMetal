@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64AAE55326BFE96100A85986 /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AAE55226BFE96100A85986 /* ImageUtil.m */; };
+		64AAE55D26BFEA6A00A85986 /* ZWMetalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AAE55C26BFEA6A00A85986 /* ZWMetalView.m */; };
 		FD68897420DB40C7002F8137 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD68897320DB40C7002F8137 /* AppDelegate.m */; };
 		FD68897720DB40C7002F8137 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD68897620DB40C7002F8137 /* ViewController.m */; };
 		FD68897A20DB40C7002F8137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD68897820DB40C7002F8137 /* Main.storyboard */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64AAE55126BFE96100A85986 /* ImageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		64AAE55226BFE96100A85986 /* ImageUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		64AAE55B26BFEA6A00A85986 /* ZWMetalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWMetalView.h; sourceTree = "<group>"; };
+		64AAE55C26BFEA6A00A85986 /* ZWMetalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWMetalView.m; sourceTree = "<group>"; };
 		FD68896F20DB40C7002F8137 /* LearnMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD68897220DB40C7002F8137 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD68897320DB40C7002F8137 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -76,7 +82,11 @@
 				FD68897620DB40C7002F8137 /* ViewController.m */,
 				FD68899420DB4B49002F8137 /* LYShaderTypes.h */,
 				FD68899120DB4832002F8137 /* shaders.metal */,
+				64AAE55126BFE96100A85986 /* ImageUtil.h */,
+				64AAE55226BFE96100A85986 /* ImageUtil.m */,
 				FD68899320DB4ADD002F8137 /* help */,
+				64AAE55B26BFEA6A00A85986 /* ZWMetalView.h */,
+				64AAE55C26BFEA6A00A85986 /* ZWMetalView.m */,
 			);
 			path = LearnMetal;
 			sourceTree = "<group>";
@@ -187,6 +197,8 @@
 				FD68897720DB40C7002F8137 /* ViewController.m in Sources */,
 				FD68898220DB40CA002F8137 /* main.m in Sources */,
 				FD68897420DB40C7002F8137 /* AppDelegate.m in Sources */,
+				64AAE55326BFE96100A85986 /* ImageUtil.m in Sources */,
+				64AAE55D26BFEA6A00A85986 /* ZWMetalView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A478ENRUX2;
+				DEVELOPMENT_TEAM = 7GJANK3822;
 				INFOPLIST_FILE = "$(SRCROOT)/LearnMetal/help/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
